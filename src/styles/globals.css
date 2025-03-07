@@ -1,26 +1,208 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+
+
+
+body {
+  color: var(--foreground);
+  font-family: "Montserrat", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.hero {
+  background-image: url('/bg1.png');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.hero-text {
+  top: 0px;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero-main-text {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.date-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+.date-text:nth-child(2) {
+  padding: 0 20px;
+  margin: 0 10px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.address-text {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.address-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.address-btn:hover {
+  background: transparent;
+  color: #000;
+}
+
+.asd {
+  font-family: "Moon Dance", cursive;
+  font-size: 70px;
+}
+.time {
+  margin-bottom: 20px;
+}
+
+.mob1,
+.mob2 {
+  position: absolute;
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .mob1,
+  .mob2 {
+    display: block;
+  }
+
+  .mob2 {
+    bottom: 0;
+  }
+
+  .hero {
+    background-image: none;
+  }
+
+  .address-text {
+    max-width: 400px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (max-width: 440px) {
+  .asd {
+    font-size: 45px;
+  }
+  .hero-main-text {
+    font-size: 25px;
+  }
+
+  .hero-text2 {
+    font-size: 14px;
+    max-width: 350px;
+  }
+
+  .hero-text3 {
+    font-size: 14px;
+  }
+
+  .hero-text4 {
+    font-size: 14px;
+  }
+  .hero-text5 {
+    font-size: 14px;
+    max-width: 350px;
+  }
+
+  .address-text {
+    max-width: 400px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 390px) {
+  .asd {
+    font-size: 40px;
+  }
+  .hero-main-text {
+    font-size: 20px;
+  }
+
+  .hero-text2 {
+    font-size: 14px;
+    max-width: 350px;
+  }
+
+  .hero-text3 {
+    font-size: 14px;
+  }
+
+  .hero-text4 {
+    font-size: 14px;
+  }
+  .hero-text5 {
+    font-size: 14px;
+    max-width: 350px;
+  }
+
+  .address-text {
+    max-width: 350px;
+    font-size: 14px;
+  }
+  .owner-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .asd {
+    font-size: 35px;
+    margin: 0;
+  }
+  .hero-main-text {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .hero-text2 {
+    font-size: 12px;
+    max-width: 250px;
+    margin: 5px;
+  }
+
+  .hero-text3 {
+    font-size: 12px;
+  }
+
+  .hero-text4 {
+    font-size: 12px;
+  }
+  .hero-text5 {
+    font-size: 12px;
+    max-width: 300px;
+  }
+  .date-text {
+    font-size: 16px;
+  }
+  .time-text {
+    font-size: 12px;
+  }
+
+  .address-text {
+    max-width: 250px;
+    font-size: 12px;
+  }
+  .owner-text {
+    font-size: 12px;
+  }
+  .time {
+    margin-bottom: 0;
+  }
 }
