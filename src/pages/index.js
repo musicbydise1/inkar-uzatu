@@ -42,7 +42,7 @@ export default function Home() {
                           АЛМАТЫ ҚАЛАСЫ,
                           ҚАЛҚАМАН-2, СЕЙІТОВ КӨШЕСІ, 12
                           "СҰЛТАН САРАЙЫ"</p>
-                      <a className="address-btn" href="https://2gis.kz/almaty/geo/70000001023455019/76.817431,43.205486">Картаны ашу</a>
+                      <a className="address-btn" href="dgis://2gis.kz/almaty/geo/70000001023455019/76.817431,43.205486" target="_blank" rel="noopener noreferrer">Картаны ашу</a>
                   </div>
                   <div className="owner-text">
                       <p>Той Йелері: Мұрат-Қарлығаш</p>
