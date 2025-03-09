@@ -24,12 +24,12 @@ export default function Home() {
                       ҚЫЗЫМЫЗ</h2>
                   <h2 className="hero-text4 text-black text-center"> ІҢКӘРДІҢ</h2>
                   <h2 className="hero-text5 text-black text-center"> ҰЗАТУ ТОЙЫНА АРНАЛҒАН
-                      АК ДАСТАРХАНЫМЫЗДЫҢ
+                      АҚ ДАСТАРХАНЫМЫЗДЫҢ
                       КАДІРЛІ ҚОНАҒЫ БОЛУҒА
                       ШАҚЫРАМЫЗ!</h2>
                   <div className="flex flex-row items-center justify-center mt-[20px]">
-                      <span className="date-text">Сәуір</span>
-                      <span className="date-text">26</span>
+                      <span className="date-text">Наурыз</span>
+                      <span className="date-text">23</span>
                       <span className="date-text">2025</span>
                   </div>
                   <div className="time">
